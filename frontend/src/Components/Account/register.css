@@ -1,0 +1,64 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 400px;
+  background-color: rgb(248, 248, 248);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.register-title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-align: left;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+  color: #555;
+}
+
+input, select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.register-error {
+  margin-top: 1rem;
+  color: rgb(255, 0, 55);
+  font-size: 0.9rem;
+}

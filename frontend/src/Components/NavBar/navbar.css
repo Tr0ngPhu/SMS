@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    padding: 1rem 1.5rem;
+    height: 70px;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+    background-color: hsl(204, 61%, 87%);
+    align-items: center;
+   
+}
+.navbar > *{
+    margin: 0 1.25rem;
+    text-decoration: none;
+    font-weight: 600;
+    color:rgb(0, 99, 230);
+}
+.navbar-home{
+    color:rgb(163, 162, 162);
+}
+.navbar-login {
+    color:rgb(163, 162, 162);
+}
+.navbar-register{
+    color:rgb(255, 255, 255);
+    background-color: rgb(150, 150, 150);
+    padding:0.35rem;
+    border-radius: 6px;
+}
+.navbar-user{
+    color: #000;
+}
+.navbar-logout {
+    color:rgb(156, 156, 156);
+    padding:0.35rem;
+}

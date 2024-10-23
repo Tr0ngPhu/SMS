@@ -1,0 +1,33 @@
+.sidebar {
+  background-color: white;
+  height: 100vh;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-header {
+  padding: 20px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.menu-header h2 {
+  margin: 0;
+  color: #333;
+}
+
+.menu-container {
+  padding: 20px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+/* li > * {
+  margin-right: 0px;
+} */
+
